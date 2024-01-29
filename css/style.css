@@ -249,3 +249,25 @@ nav {
   font-weight: 600;
 }
 /* Customer Review Styles End Here */
+/* Footer Section Styles Start From */
+footer {
+  background-color: #9376e0;
+}
+.footer-container {
+  padding: 80px;
+}
+.footer-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-items img {
+  width: 60px;
+  height: 60px;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+}
+/* Footer Section End From */

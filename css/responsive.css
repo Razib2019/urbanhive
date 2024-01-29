@@ -1,13 +1,18 @@
+/* For Extra Medium Devices */
 @media screen and (max-width: 1050px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* For medium Devices */
 @media screen and (max-width: 800px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* For Small Devices */
 @media screen and (max-width: 520px) {
   /* Nav Responsive Start From Here */
   .nav-container {
@@ -57,4 +62,19 @@
   }
   /* Products Items Responsive End
    Here */
+  /* Discount Section Responsive Start From Here */
+  .discount-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .discount-img,
+  .discount-text {
+    width: 100%;
+  }
+  .discount-number {
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+  }
+  /* Discount Section Responsive End Here */
 }

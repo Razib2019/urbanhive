@@ -70,7 +70,7 @@ nav {
 /* Simple Banner Section Styles Start From Here  */
 .banner-container {
   max-width: 1400px;
-  margin: 50px auto 0px;
+  margin: 50px auto 50px;
   min-height: 50px;
   display: flex;
   background-color: #e6e9eb;
@@ -130,7 +130,7 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
   max-width: 1400px;
-  margin: 50px auto 0px;
+  margin: 50px auto 50px;
   min-height: 400px;
 }
 .single-product {
@@ -160,3 +160,60 @@ nav {
   color: white;
 }
 /* Products Items Styles End Here */
+/* Discount Section Styles Start From Here */
+.discount-section {
+  background-color: #9376e0;
+  min-height: 500px;
+  padding: 20px 0px;
+}
+.discount-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+}
+.discount-img {
+  width: 50%;
+  position: relative;
+}
+.discount-img img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-number {
+  background-color: rgb(189, 189, 11);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
+.discount-text {
+  width: 50%;
+}
+.discount-text h3 {
+  font-size: 25px;
+}
+
+.discount-text p {
+  font-size: 18px;
+}
+.discount-btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Discount Section Styles End Here */

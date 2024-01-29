@@ -165,6 +165,7 @@ nav {
   background-color: #9376e0;
   min-height: 500px;
   padding: 20px 0px;
+  margin-bottom: 50px;
 }
 .discount-container {
   max-width: 1400px;
@@ -217,3 +218,34 @@ nav {
   cursor: pointer;
 }
 /* Discount Section Styles End Here */
+
+/* Customer Review Styles Start From Here */
+.review-container {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.single-review {
+  max-width: 350px;
+  padding: 10px;
+  background-color: #e893cf;
+  border: 2px solid #ff7ed8;
+  border-radius: 10px;
+}
+.single-review img {
+  width: 60px;
+  height: 60px;
+}
+.top-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-review p {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* Customer Review Styles End Here */
